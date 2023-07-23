@@ -1,8 +1,8 @@
 <?php
 $db_host = 'localhost';
-$db_name = '296946';
-$db_username = '296946';
-$db_password = 'mUDqgbn5MbVcXk2X';
+$db_name = '你的数据库名称';
+$db_username = '你的数据库用户名称';
+$db_password = '你的数据库密码';
 //获取IP
 $ip = $_SERVER["REMOTE_ADDR"];
 //脏话处理函数
