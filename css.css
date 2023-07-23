@@ -1,0 +1,47 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    outline:0;
+    font-family:PingFang SC,"Noto Serif SC",Hiragino Sans GB,Fira Mono,Microsoft YaHei,Arial,sans-serif;
+}
+a{
+    text-decoration: none
+}
+.title{
+    margin:0 0 30px;
+    font-size:30px;
+}
+.title{
+    color:#fff;
+    text-shadow:0 0 8px hsla(0,0%,100%,.55);
+    font-weight:700;letter-spacing:6px
+}
+body{
+    margin:0;background:grey
+}
+#rin-footer{
+    position:absolute;
+    bottom:0;margin:auto;
+    padding:10px 0;
+    width:100vw;
+}
+#rin-footer div{
+    color:hsla(0,0%,100%,.79);
+    text-align:center;
+    letter-spacing:.05em;
+    font-size:14px;
+    user-select:none;
+}
+#rin-footer div a{
+    color:hsla(0,0%,100%,.79);
+    transition:all .3s;
+}
+#rin-footer div a:hover{
+    color:#73aaff;
+}
+#rin-footer div p{
+    padding:0 0 8px;
+}
+
+
